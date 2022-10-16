@@ -42,3 +42,5 @@ COPY ${init_files}/stdc++.h /usr/include/bits/
 RUN chmod 644 /usr/include/bits/stdc++.h
 
 COPY ${init_files}/atcoder-cli-template /home/vscode/.config/
+
+RUN chown -R vscode /home/vscode/.config
