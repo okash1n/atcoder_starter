@@ -41,4 +41,4 @@ RUN mkdir -p /usr/include/
 COPY ${init_files}/stdc++.h /usr/include/bits/
 RUN chmod 644 /usr/include/bits/stdc++.h
 
-COPY ${init_files}/atcoder-cli-nodejs /home/vscode/.config/
+COPY ${init_files}/atcoder-cli-template /home/vscode/.config/
